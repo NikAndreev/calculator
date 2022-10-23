@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Калькулятор</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+	  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="calculator" data-calculator>
+        <div class="calculator__screen">
+          <input type="text" readonly class="calculator__output" data-output>
+        </div>
+        <span class="calculator__btn calculator__btn_blue calculator__btn_clear" data-btn="clear">C</span>
+        <span class="calculator__btn calculator__btn_blue calculator__btn_delete" data-btn="backspace">←</span>
+        <span class="calculator__btn calculator__btn_blue" data-btn="+">+</span>
+        <span class="calculator__btn calculator__btn_blue" data-btn="-">-</span>
+        <span class="calculator__btn calculator__btn_blue" data-btn="*">×</span>
+        <span class="calculator__btn calculator__btn_blue" data-btn="/">÷</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="7">7</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="8">8</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="9">9</span>
+        <span class="calculator__btn calculator__btn_blue" data-btn="(">(</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="4">4</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="5">5</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="6">6</span>
+        <span class="calculator__btn calculator__btn_blue" data-btn=")">)</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="1">1</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="2">2</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn="3">3</span>
+        <span class="calculator__btn calculator__btn_blue calculator__btn_equally" data-btn="enter">=</span>
+        <span class="calculator__btn calculator__btn_grey calculator__btn_zero " data-btn="0">0</span>
+        <span class="calculator__btn calculator__btn_grey" data-btn=".">.</span>	
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
